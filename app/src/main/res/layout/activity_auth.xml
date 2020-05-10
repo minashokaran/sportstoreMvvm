@@ -1,0 +1,68 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:hint="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/et_shape"
+        android:ems="10"
+        android:hint="     آدرس ایمیل"
+        android:inputType="textEmailAddress"
+        hint:layout_constraintEnd_toEndOf="parent"
+        hint:layout_constraintStart_toStartOf="parent"
+        hint:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editText"
+
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/et_shape"
+        android:ems="10"
+        android:hint="     رمز عبور "
+        android:inputType="textEmailAddress"
+        hint:layout_constraintEnd_toEndOf="parent"
+        hint:layout_constraintHorizontal_bias="0.502"
+        hint:layout_constraintStart_toStartOf="parent"
+        hint:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="308dp"
+        android:background="@drawable/bt_shape"
+        android:text="ورود به حساب کاربری"
+        android:textColor="@color/backMilk"
+        android:textSize="14sp"
+        hint:layout_constraintBottom_toBottomOf="parent"
+        hint:layout_constraintEnd_toEndOf="parent"
+        hint:layout_constraintHorizontal_bias="0.504"
+        hint:layout_constraintStart_toStartOf="parent"
+        hint:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="244dp"
+        android:background="@drawable/bt2_shape"
+        android:text="ثبت نام"
+        android:textColor="@color/backMilk"
+        android:textSize="14sp"
+        hint:layout_constraintBottom_toBottomOf="parent"
+        hint:layout_constraintEnd_toEndOf="parent"
+        hint:layout_constraintHorizontal_bias="0.495"
+        hint:layout_constraintStart_toStartOf="parent"
+        hint:layout_constraintTop_toBottomOf="@+id/button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
